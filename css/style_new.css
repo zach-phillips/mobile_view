@@ -57,20 +57,17 @@ img{
     height: 300px;
     width:300px;
     padding: 25px;
-    border-radius: 10px;
-    margin-top: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 10px;
 	object-fit: cover;
 	border-radius: 10px;
-	transform: scale(1.20);
+	/*transform: scale(1.20);*/
 	opacity: 0.9;
 	transition: opacity 0.4s, transform 0.4s;
 }
 
 img:hover {
 	filter: contrast(160%);
-	transform: scale(1.03);
+	transform: scale(1.20);
 	opacity: 1;
 }
 
@@ -82,26 +79,18 @@ h2{
 }
 
 p {
-    padding-left: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
+	padding: 10px;
+	padding-top: 0px;
 	margin-left: 25px;
 	margin-bottom: 25px;
 	margin-right: 25px;
-	width: 300px;
-	text-justify: auto;
 	text-align: justify;
-	font-size: 15px;
 }
 
 .name {
-	font-weight: bold;
 	padding-bottom: 0;
 	margin-bottom: 5px;
-	font-size: 0.83em;
-	text-align: left;
-	margin-left: 25px;
-	padding-left: 10px;
+	font-size: 1.5em;
 }
 
 h1 {
@@ -200,3 +189,4 @@ a.skip {
     position: absolute;
     left: -500px;
 }	
+
