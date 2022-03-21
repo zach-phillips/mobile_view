@@ -156,6 +156,7 @@ h1 {
 	}
 	img:hover {
 		transform: scale(1.00);
+		filter: contrast(100%);
 	}
 	.activenavlink:hover {
 		transition: 0s;
@@ -220,4 +221,16 @@ a.skip {
 }
 .contact {
 	color: black;
+}
+
+.griddivs {
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+@media screen and (min-width: 400px){
+    /*to add at a later date*/
 }
